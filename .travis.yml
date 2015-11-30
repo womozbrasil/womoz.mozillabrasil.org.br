@@ -1,0 +1,15 @@
+script: true
+
+notifications:
+  email: false
+
+deploy:
+  provider: openshift
+  user: cynthiacpereira@gmail.com
+  password:
+    secure: SMuHRX9kW5FFOJzdxans6fh9dztt7/NOKSkmXgrjDSVNZAdTwqslaVGHqff91lrQ/5u94t1KVoy+LX9R3G+710F02IzkJ8Q6MZIu8SdH0JmHrkqofcjkr7UvbCdpwvXkIfa1o/+ZZDntmh79HKpOldjOdnbD1Kn4KAXEnVp3AqOa3ZOK4UoXFDeIXT5y/N+brfD3IdKN0UQ5VB7qNFYwxILbqO4Oyq/GHETmWIlmNPDBWKty74tRq3aVgr+kZ2Sij1T7NOk5iBuXUNCZntcfDOpbPHhyh1/eGDVZHJhtjZgclOZNR5h9Mfhh2747f5+BtBfof2Ty0yPwfNd9VA85lZsDY0+hSAFVCV/D8+/KwBbm4dZmhgI24Dl0gS9lqNKbwdsSP4DTBLSSnCuH67LIQkZ9nIlePF7AMutYmsIYq7IrmJDS29D/x32508ZfdmJpryggWEbm1m6y2aCPnWyogu6iySr9CzGLnSj4M9JBOUktrEjGvCDQ/Ose0xI6pO57tnNbGp2JxKH49fkRtVfevfMg52x1z5MLFiqeDJGAx8B8OYwoQNWcGMpWSI+xMEWKbvpFOWOGh8luX6MuKm9eOcH6AV5AbfuQleyCggPfGvjytFN1iwoyjzXJB5H4rfBa9I7W9C8F1tI3ys7QJ6XOcobc79WsKqW0vlI+Cw6noJQ=
+  app: develop
+  domain: womozbrasil
+  on:
+    repo: womozbrasil/womoz.mozillabrasil.org.br
+    branch: develop
