@@ -65,7 +65,7 @@ $zerif_socials_email = get_theme_mod('zerif_socials_email','#');
 					endif;
 					// email
 					if( !empty($zerif_socials_email) ):
-						echo '<li><a target="_blank" href="'.esc_url($zerif_socials_email).'"><i class="fa fa-envelope-o"></i></a></li>';
+						echo '<li><a target="_self" href="'.$zerif_socials_email.'"><i class="fa fa-envelope-o"></i></a></li>';
 					endif;
 					?>
 				</ul>
